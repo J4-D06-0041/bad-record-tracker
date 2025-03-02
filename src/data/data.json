@@ -1,0 +1,95 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "name": "Admin User",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "mod",
+      "password": "mod123",
+      "name": "Moderator User",
+      "role": "moderator"
+    },
+    {
+      "id": 3,
+      "username": "user",
+      "password": "user123",
+      "name": "Regular User",
+      "role": "user"
+    }
+  ],
+  "persons": [
+    {
+      "id": 1,
+      "firstname": "John",
+      "lastname": "Doe",
+      "address": "123 Main St, Anytown, USA",
+      "dateOfBirth": "1985-05-15",
+      "contact": "john.doe@example.com, 555-123-4567",
+      "notes": "Regular client since 2020"
+    },
+    {
+      "id": 2,
+      "firstname": "Jane",
+      "lastname": "Smith",
+      "address": "456 Oak Ave, Somewhere, USA",
+      "dateOfBirth": "1990-10-20",
+      "contact": "jane.smith@example.com, 555-987-6543",
+      "notes": "Prefers email communication"
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Acme Corporation",
+      "address": "789 Business Blvd, Enterprise City, USA",
+      "contact": "info@acme.com, 555-ACME-123"
+    },
+    {
+      "id": 2,
+      "name": "Globex Industries",
+      "address": "101 Commerce Way, Tradetown, USA",
+      "contact": "contact@globex.com, 555-GLOBEX"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Complaint"
+    },
+    {
+      "id": 2,
+      "name": "Inquiry"
+    },
+    {
+      "id": 3,
+      "name": "Feedback"
+    }
+  ],
+  "records": [
+    {
+      "id": 1,
+      "proof": "email-screenshot.jpg",
+      "description": "Customer reported issues with recent product delivery",
+      "severity": "Medium",
+      "personId": 1,
+      "companyId": 1,
+      "categoryId": 1,
+      "date": "2023-12-15"
+    },
+    {
+      "id": 2,
+      "proof": "phone-record.mp3",
+      "description": "Company requested information about services",
+      "severity": "Low",
+      "personId": 2,
+      "companyId": 2,
+      "categoryId": 2,
+      "date": "2024-01-10"
+    }
+  ]
+}
